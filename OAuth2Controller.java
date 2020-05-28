@@ -11,7 +11,7 @@ public class OAuth2Controller {
 	{
 		return "Hello";
 	}
-	@GetMapping("/restricted")
+	@GetMapping("/restricted") //restrict access
 	public String restrict()
 	{
 		return "log in to see the contents";
