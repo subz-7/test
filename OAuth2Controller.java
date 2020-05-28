@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController 
 public class OAuth2Controller {
 
-	@GetMapping("/")
+	@GetMapping("/")  //no restriction
 	public String hello()
 	{
 		return "Hello";
